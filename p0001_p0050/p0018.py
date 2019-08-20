@@ -31,7 +31,8 @@ t = time.time()  # get time just before the main routine
 
 ########## the main routine #############
 
-max_path_sum()
+if __name__ == "__main__":
+    max_path_sum()
 
 ########## end of main routine ###########
 
