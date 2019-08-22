@@ -38,31 +38,31 @@ Captured below is time time taken to execute each of the problems. These were ru
 <td> 002.408 (micro) </td>
 </tr>
 
-tr>
+<tr>
 <td> 6 </td>
 <td> Sum square difference </td>
 <td> 003.982 (micro) </td>
 </tr>
 
-tr>
+<tr>
 <td> 7 </td>
 <td> 10,001st prime </td>
 <td> 131.229 ms </td>
 </tr>
 
-tr>
+<tr>
 <td> 8 </td>
 <td> Largest product in a series </td>
 <td> 013.083 ms </td>
 </tr>
 
-tr>
+<tr>
 <td> 9 </td>
 <td> Special Pythagorean triplet </td>
 <td> 100.944 ms </td>
 </tr>
 
-tr>
+<tr>
 <td> 10 </td>
 <td> Summation of primes </td>
 <td> 001.142 SECONDS </td>
