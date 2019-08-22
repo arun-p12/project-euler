@@ -2,13 +2,10 @@
 ###  Get Factors     ###
 ########################
 def get_factors(number):
-    factors = []
+    factors = set({1, number})
     i = 1
     while(i <= number / i):
-        if(number % i == 0):
-            factors.append(i)
-            if (i != number / i):
-                factors.append(int(number / i))
+        if(number % i == 0): factors.update({i, number // i})
         i += 1
     #print("factors = ", factors)
     return(factors)
@@ -113,7 +110,7 @@ def prime_factors_seive(num):
 '''
 Finally, decided to write a function to return a prime list
 Returns either a list of booleans, or       (( [False, False, True, True, ...] vs [2, 3, ...] ))
-Returns the list of numeric values of the primes  
+Returns the list of numeric values of the primes
 '''
 def prime_list_generator(num=1000000, bool=1):
     primes = [True for x in range(num)]
@@ -127,5 +124,3 @@ def prime_list_generator(num=1000000, bool=1):
 
     if(not bool): primes = [x for x in range(num) if primes[x]]
     return(primes)
-
-
