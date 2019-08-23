@@ -29,7 +29,7 @@ def p0003_largest_prime_factor(**kwargs):
 
     t = time.time() - t             # and now, after the routine
     print("Largest prime factor of {} = {}".format(n, primes[-1]))
-    print("time       = {:7.5f} s\t{:7.5f} ms\t{:7.3f} µs".format(t, t*1000, t*100000))
+    print("time       = {:7.5f} s\t{:7.5f} ms\t{:7.3f} µs".format(t, t*1000, t*1_000_000))
 
 
 p0003_largest_prime_factor()
