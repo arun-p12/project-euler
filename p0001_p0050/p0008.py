@@ -35,4 +35,4 @@ for i in range(0, len(n_list)):
 
 t = time.time() - t  # and now, after the routine
 print("Largest value of product of {} consequtive digits = {}".format(number, max))
-print("time       = {:7.5f} s\t{:7.5f} ms\t{:7.3f} µs".format(t, t * 1000, t * 100000))
+print("time       = {:7.5f} s\t{:7.5f} ms\t{:7.3f} µs".format(t, t * 1000, t * 1000000))
