@@ -1,7 +1,7 @@
 # Execution Time
 Captured below is time time taken to execute each of the problems. These were run on a 2.2GHz Intel Core i7 processor with 16GB RAM (a MacBook Pro ... 2019 edition)
 
-Currently, problem 43 (Sub-string divisibility) is the slowest running solution, taking about 10s.
+Currently, problem 92 (Square digit chains) is the slowest running solution, taking about 25s.
 
 <table>
 <tr>
