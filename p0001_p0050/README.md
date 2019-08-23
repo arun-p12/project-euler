@@ -77,7 +77,7 @@ Captured below is time time taken to execute each of the problems. These were ru
 <tr>
 <td> 12 </td>
 <td> Highly divisible triangle number </td>
-<td> 098.844 ms SECONDS </td>
+<td> 098.844 ms </td>
 </tr>
 
 <tr>
@@ -307,6 +307,5 @@ Captured below is time time taken to execute each of the problems. These were ru
 <td> Consecutive prime sum </td>
 <td> 001.129 SECONDS </td>
 </tr>
-
 
 </table>
