@@ -23,6 +23,12 @@ Currently, problem 92 (Square digit chains) is the slowest running solution, tak
 </tr>
 
 <tr>
+<td> 54 </td>
+<td> Poker hands </td>
+<td> 044.497 ms </td>
+</tr>
+
+<tr>
 <td> 55 </td>
 <td> Lychrel numbers </td>
 <td> 061.135 ms </td>
