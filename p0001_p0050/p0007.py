@@ -22,6 +22,6 @@ while(len(primes) < number - 1):
 
 t = time.time() - t  # and now, after the routine
 print("{}st prime = {}".format(number, primes[number - 1]))
-print("time       = {:7.5f} s\t{:7.5f} ms\t{:7.3f} µs".format(t, t * 1000, t * 100000))
+print("time       = {:7.5f} s\t{:7.5f} ms\t{:7.3f} µs".format(t, t * 1000, t*1000000))
 
 
