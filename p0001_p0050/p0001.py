@@ -26,7 +26,7 @@ def p0001_multiples_sum(**kwargs):
 
     t = time.time() - t             # and now, after the routine
     print("Sum of multiples of {} upto {} = {}".format(num, stop, sum(result)))
-    print("time       = {:7.5f} s\t{:7.5f} ms\t{:7.3f} µs".format(t, t*1000, t*100000))
+    print("time       = {:7.5f} s\t{:7.5f} ms\t{:7.3f} µs".format(t, t*1000, t*1_000_000))
 
 p0001_multiples_sum()
 #p0001_multiples_sum(num=[3, 5], stop=15, verbose=1)
