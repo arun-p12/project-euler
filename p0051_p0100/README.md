@@ -11,6 +11,12 @@ Currently, problem 92 (Square digit chains) is the slowest running solution, tak
 </tr>
 
 <tr>
+<td> 51 </td>
+<td> Prime digit replacements </td>
+<td> 005.161 SECONDS </td>
+</tr>
+
+<tr>
 <td> 52 </td>
 <td> Permuted multiples </td>
 <td> 384.626 ms </td>
